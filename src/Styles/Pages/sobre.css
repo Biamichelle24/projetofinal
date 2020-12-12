@@ -1,0 +1,129 @@
+.header-sobre {
+    background: url(../../Assets/LGBTQ+.svg) no-repeat center center;
+    background-size: cover;
+    height: 720px;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+  
+  @media only screen and (max-width: 414px)  {
+    .header-sobre {
+      background: url(../../Assets/LGBTQ+.svg) no-repeat center center;
+      background-size: cover;
+      height: 500px;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  }
+
+.sobre-titulo-paragrafo>h2{
+  padding: 0;
+  color:#a5478e;
+  font-size: 72px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+
+
+  .sobre-paragrafo>p {
+    color: #a5478e;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.166667px;
+    line-height: 35px;
+    padding: 0 10% 0 10%;
+  }
+
+  @media only screen and (max-width: 414px)  {
+    .sobre-paragrafo>p {
+      font-size: 18px;
+      line-height: 18px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      width: 250px;
+      padding: 0 5% 0 5%;
+      font-weight: 600;
+    }
+ }
+ 
+
+/*Cards*/
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 448px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+  
+.card h3 {
+    color: #4f2158;
+}
+
+.card p{
+    font-weight: 100;
+    color: #4f2158
+}
+
+.card img{
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 20px;
+    max-width: 400px;
+    height: 250px;
+}
+
+/*Sobre o campo de pesquisa*/
+
+.secao-sobre{
+  padding: 0 7% 0% 7%;
+}
+
+.pesquisa-sobre{
+    padding: 0 0 0 8%;
+    width: 400px;
+    color:#a5478e;
+    font-size: 72px;
+    letter-spacing: 0.5px;
+}
+
+.input-sobre{
+    box-shadow: 0px 2px 10px #a5478e;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.43px;
+    padding: 16px 45px;
+    text-align: center;
+    margin: 0% 0 10% 5%;
+    border-radius: 40px;
+}
+
+
+@media only screen and (max-width: 414px)  {
+  .input-sobre {
+    font-size: 14px;
+    padding: 16px 40px;
+  }
+}
+
+.input-sobre:focus {
+  outline:0;
+}
+
+
+#img{
+  width: 60%;
+  display: flex;
+  margin-left: auto;
+}

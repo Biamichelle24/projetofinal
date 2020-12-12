@@ -1,0 +1,13 @@
+#foo{
+    background: #a5478e;
+    line-height: 35px;
+    padding: 32px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#foo a{
+    color: #ffffff;
+}
+

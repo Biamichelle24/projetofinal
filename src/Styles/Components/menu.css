@@ -1,0 +1,198 @@
+.header {
+  position: fixed;
+  left: 0;
+  margin: 0;
+  right: 0;
+  z-index: 10;
+  max-height: 130px;
+}
+
+.header.scrolling {
+  background-color:#a5478e;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.scrolling a{
+  color: #ffffff;
+}
+
+.header .brand {
+  display: inline-block;
+  font-size: 16px;
+}
+@media only screen and (max-width: 320px)  {
+  .header .brand {
+    display: none;
+  }
+}
+
+.header-ul {
+  float: right;
+  list-style: none;
+  margin-right: 78px;
+  margin-top: 0;
+  display: flex;
+}
+
+@media only screen and (max-width: 1090px)  {
+  .header-ul {
+    display: none;
+  }
+}
+
+.header-ul>li {
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 21px;
+  letter-spacing: 0.145833px;
+  margin-right: 35px;
+  margin-top: 70px;
+  text-align: center;
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px)  {
+  .header-ul>li {
+    margin-right: 8px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 620px)  {
+  .header-ul>li {
+    font-size: 16px;
+  }
+}
+  
+  
+  
+  
+  .hamburguer {
+    position:absolute;
+    outline:none;
+    right:0;
+    border:0;
+    margin: 60px 8%;
+    z-index:999;
+  }
+  @media only screen and (min-width: 1091px)  {
+    .hamburguer {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 768px)  {
+    .hamburguer {
+      margin: 30px 5%;
+    }
+  }
+  @media only screen and (max-width: 414px)  {
+    .hamburguer {
+      margin: 10px 3%;
+      min-width: 50px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+  .hamburguer {
+      margin: 10px 1%;
+    }
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 32px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+    transition-duration: 0.4s;
+  }
+  .mobile-toggle .bar1 {
+    transform: rotate(-45deg) translate(-3px, 3px);
+    -webkit-transform: rotate(-45deg) translate(-3px, 3px);
+    background:white;
+  }
+  .mobile-toggle .bar2 {
+    opacity: 0;
+  }
+  .mobile-toggle .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    background:white;
+  }
+  
+  .nav-mobile {
+    position: absolute;
+    background:#a5478e;
+    opacity:0;
+    visibility: hidden;
+    width:100%;
+    height: 280px;
+    z-index:700;
+    transition-duration:.5s;
+    backface-visibility:none;
+    text-align: center;
+    line-height: 40px;
+    top: 0;
+    padding-top: 12%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+
+  @media only screen and (min-width: 1091px)  {
+    .nav-mobile {
+      display: none;
+    }
+  }
+  
+  .mobile-open {
+    visibility: visible;
+    opacity:0.7;
+  }
+  
+  #img-nav{
+    padding: 20px 0px 0px 60px;
+    width: 15rem;
+  }
+  
+  .brand {
+    margin: 15px 8%;
+    min-width: 178px;
+    width: 20%
+  }
+  
+  @media only screen and (max-width: 768px)  {
+    .brand {
+      margin: 15px 4%;
+    }
+  }
+  @media only screen and (max-width: 414px)  {
+    .brand {
+      margin: 10px 3%;
+      min-width: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+  .brand {
+      margin: 10px 1%;
+    }
+  }
+  
+  .brand.brand-scroll {
+    margin: 15px 8%;
+    min-width: 178px;
+    width: 20%
+  }
+  @media only screen and (max-width: 768px)  {
+    .brand.brand-scroll {
+      margin: 15px 0 10px 4%;
+    }
+  }
+  @media only screen and (max-width: 414px)  {
+    .brand.brand-scroll {
+      background: url(../../Assets/transcidadania_scroll.png) no-repeat;
+      margin: 10px 0 10px 1%;
+    }
+  } 

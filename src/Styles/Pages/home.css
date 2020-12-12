@@ -1,0 +1,211 @@
+.header-home {
+    background: url(../../Assets/capa.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 850px;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+  
+  @media only screen and (max-width: 414px)  {
+   .header-home {
+      background: url(../../Assets/capa.jpeg) no-repeat center center;
+      background-size: cover;
+      height: 500px;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  } 
+
+  .header-title{
+    padding: 39% 0 0 0;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 1920px)  {
+    .header-title {
+      padding: 15% 0 0 8%;
+    }
+  }
+  @media only screen and (max-width: 1024px)  {
+    .header-title {
+      padding: 30% 0 0 8%;
+    }
+  }
+  @media only screen and (max-width: 768px)  {
+    .header-title {
+      padding: 48% 0 0 8%;
+    }
+  }
+  @media only screen and (max-width: 414px)  {
+    .header-title {
+      padding: 40% 0 0 8%;
+      width: 330px;
+    }
+  }
+  @media only screen and (max-width: 320px)  {
+    .header-title {
+      padding: 55% 0 0 4%;
+    }
+  }
+
+
+  /*parte das noticias*/
+
+.news-home{
+  background:#f1daea;
+  padding: 20px 0 150px;
+}
+
+.news-home>div>h2 {
+  color: #a5478e;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: 0.625px;
+  margin: 0;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 414px)  {
+  .news-home>div>h2 {
+  font-size: 50px;
+  line-height: 50px;
+  width: 320px;
+  }
+}
+@media only screen and (max-width: 320px)  {
+  .news-home>div>h2 {
+  font-size: 40px;
+  line-height: 40px;
+  width: 255px;
+  }
+}
+
+@media only screen and (max-width: 414px)  {
+  .row-column-01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+.column-01 {
+  padding-left: 8%;
+}
+
+@media only screen and (max-width: 414px)  {
+  .column-01{
+  padding-bottom: 10%;
+  padding-left: 10px;
+  }
+}
+
+.column-01>h3{
+  font-size: 24px;
+  color: #a5478e;
+  width: 450px;
+  padding-top: 100px;
+}
+@media only screen and (max-width: 414px)  {
+    .column-01>h3{
+      font-size: 38px;
+      width: 270px;
+    }
+}
+@media only screen and (max-width: 320px)  {
+    .column-01>h3{
+      width: 245px;
+    }
+}
+
+@media only screen and (max-width: 414px)  {
+  .column-01>p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px)  {
+  .column-01>p {
+    width: 250px;
+  }
+}
+
+
+.image-home>img{
+  width: 390px;
+  height: 230px;
+}
+
+.image-home {
+  display: flex;
+  flex-direction: row;
+  padding-left: 8%;
+}
+@media only screen and (max-width: 768px)  {
+  .image-home {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+  }
+}
+@media only screen and (max-width: 414px)  {
+  .image-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+#home-paragrafo {
+    width: 457px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin: 0;
+    color: #a5478e;
+    margin-left: 4%;
+    background: white;
+    font-size: 17px;
+}
+@media only screen and (max-width: 1024px)  {
+  #home-paragrafo {
+    padding-left: 80px;
+  }
+}
+@media only screen and (max-width: 768px)  {
+  #home-paragrafo {
+    padding-left: 1%;
+    padding-top: 10px;
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 414px)  {
+  #home-paragrafo  {
+  font-size: 20px;
+  width: 300px;
+  padding-right: 0;
+  }
+}
+
+#div-simple-home{
+  width: 6%;
+  border-color: #a5478e;
+}
+
+hr{
+  border-color: #a5478e;
+}
+
+/*Card das noticias*/
+
+.card {
+  width: 448px;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}

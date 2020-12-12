@@ -1,0 +1,118 @@
+.header-contato {
+    background: url(../../Assets/queer.jpg) no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+  
+  @media only screen and (max-width: 414px)  {
+    .header-contato {
+      background: url(../../Assets/queer.jpg) no-repeat center center;
+      background-size: cover;
+      height: 500px;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  }
+
+  .title-contato{
+    padding: 45% 0 0 0;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 1920px)  {
+    .title-contato {
+      padding: 15% 0 0 8%;
+    }
+  }
+  @media only screen and (max-width: 1024px)  {
+    .title-contato {
+      padding: 30% 0 0 8%;
+    }
+  }
+  @media only screen and (max-width: 768px)  {
+    .title-contato {
+      padding: 48% 0 0 8%;
+    }
+  }
+  @media only screen and (max-width: 414px)  {
+    .title-contato {
+      padding: 40% 0 0 8%;
+      width: 330px;
+    }
+  }
+  @media only screen and (max-width: 320px)  {
+    .title-conato {
+      padding: 55% 0 0 4%;
+    }
+  }
+  
+  .header-contato>div>h1 {
+    color: #FFFFFF;
+    font-family: 'LatoWebBlack';
+    font-size: 32px;
+    letter-spacing: 0.5px;
+  }
+
+  @media only screen and (max-width: 414px)  {
+    .header-title>h1 {
+      font-size: 42px;
+      padding-top: 35%;
+      margin-bottom: 0;
+      width: 315px;
+      margin-top: 0;
+    }
+
+    .header-contato>div>h1 {
+      font-size: 48px;
+      padding-top: 1%;
+      margin-bottom: 0;
+      width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 320px)  {
+    .header-contato>div>h1 {
+      font-size: 44px;
+      font-style: italic;
+    }
+  }
+
+  .btn-transp {
+    border-radius: 27px !important;
+    cursor: pointer;
+    font-family: 'LatoWeb';
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.43px;
+    padding: 16px 45px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 414px)  {
+    .btn-transp {
+      border-color: #ffffff;
+      font-size: 14px;
+      padding: 16px 40px;
+    }
+  }
+  
+  .btn-transp:focus {
+    outline:0;
+  }
+  
+  .btn-transp {
+    background: none;
+    color: #ffffff;
+    margin-left: 20px;
+  }
+  
+  .btn-transp:hover {
+    background-color: #7E459B;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+  }

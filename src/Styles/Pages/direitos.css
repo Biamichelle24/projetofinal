@@ -1,0 +1,88 @@
+.header-direitos {
+    background: url(../../Assets/be-proud.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+  
+  @media only screen and (max-width: 414px)  {
+    .header-direitos {
+      background: url(../../Assets/be-proud.jpg) no-repeat center center;
+      background-size: cover;
+      height: 500px;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  }
+
+  
+  .header-direitos>div>h1 {
+    color: #FFFFFF;
+    font-family: 'LatoWebBlack';
+    font-size: 120px;
+    letter-spacing: 0.5px;
+    margin: 65px 0 0 0;
+    width: 360px;
+  }
+
+
+  @media only screen and (max-width: 414px)  {
+
+    .header-direitos>div>h1 {
+      font-size: 48px;
+      padding-top: 1%;
+      margin-bottom: 0;
+      width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 320px)  {
+    .header-direitos>div>h1 {
+      font-size: 44px;
+      font-style: italic;
+    }
+  }
+
+  /*Cards*/
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 448px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+  
+.card h3 {
+    color: #4f2158;
+}
+
+.card p{
+    font-weight: 100;
+    color: #4f2158
+}
+
+.card img{
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 20px;
+    max-width: 400px;
+    height: 250px;
+}
+
+h2{
+  color: #4f2158;
+  text-align: center;
+  padding-top: 45px;
+  font-size: 28px;
+}
